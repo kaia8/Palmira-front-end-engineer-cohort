@@ -21,3 +21,37 @@ h2 {
     font-size: 2rem;
     line-height: 1.2;
 }
+a:hover, a:focus{
+    text-shadow: 1px 1px 11px green;
+}
+.active-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: _;        /* new! */
+}
+
+
+.show-on-hover {
+    display: none;
+}
+
+.scavenger-hunt:hover .show-on-hover {
+    display: block;
+
+}
+
+.scavenger-hunt:focus .show-on-hover {
+    display: block;
+
+}
+ 
+.show-on-hover { display: none; }
+.scavenger-hunt:hover .show-on-hover,
+.scavenger-hunt:focus .show-on-hover {
+  display: block;
+}
+
+.cta-link:hover,
+.cta-link:focus {
+  text-shadow: 2px 2px 12px cyan;
+}
